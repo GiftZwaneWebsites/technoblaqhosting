@@ -1,0 +1,90 @@
+.header{
+    background-color: #fff;
+    padding: 1px;
+    text-align: center;
+    height: 100%;
+   
+   }
+  
+   h1{
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+   }
+   .headings{
+       margin-top: 50px;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       height: 30%;
+       padding: 1px;
+    }
+   h2{
+       display: inline;
+   
+   }
+   p{
+       font-family: Arial, Helvetica, sans-serif;
+       height: 100%;
+       text-align: center;
+       width: 100%;
+       margin-top: 50px ;
+   }
+   .number1{
+       margin-bottom: 100px;
+       text-align: center;
+       width: 50px;
+       height: 30px;
+   }
+   .number2{
+       margin-top: 100px;
+       text-align: center;
+       width: 50px;
+       height: 30px;
+   }
+   .number3{
+       margin-top: 100px;
+       text-align: center;
+       width: 50px;
+       height: 30px;
+   }
+   .left-col, .center-col, .right-col{
+    background-color:#fff;
+    float: left;
+    width: 30%;
+    padding: 1px;
+   }
+   .footer_tumi {
+       margin-top: 250px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100px;
+       background-color: #f2f2f2;
+       text-align: center;
+       padding-top: 1px;
+       clear: both;
+       box-sizing: border-box
+    }
+    .footer-btn {
+       padding: 10px 10px;
+       font-size: 0.9rem;
+       color: #000000;
+       background-color: #ffffff;
+       border: 1px solid black;
+       border-radius: 1px;
+       cursor: pointer;
+       transition: 0.3s ease-in-out;
+    }
+    .footer-btn:hover {
+       background-color: #ffffff;
+       height: 50%;
+   
+   }
+   .container div {
+    min-height: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .column{
+    width: 33%;
+   }
